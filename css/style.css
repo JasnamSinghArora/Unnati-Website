@@ -603,6 +603,21 @@ html[lang="hi"].nav-dark .lang-toggle .lt-hi { color: var(--ink); }
   .nav-cta { display: none; }
   /* Stop the body from scrolling behind the open menu */
   body.nav-open { overflow: hidden; }
+  /* CRITICAL: When the mobile menu is open, neutralise any property on .nav
+     that would create a containing block (backdrop-filter, transform,
+     will-change). Otherwise the fixed overlay gets trapped inside the small
+     scrolled nav bar and the footer bleeds through on iOS Safari. */
+  body.nav-open .nav,
+  body.nav-open .nav.scrolled,
+  body.nav-open .nav.dark,
+  body.nav-open .nav.dark.scrolled {
+    background: transparent !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    border-bottom-color: transparent !important;
+    transform: none !important;
+    will-change: auto !important;
+  }
 }
 
 /* ============================================
