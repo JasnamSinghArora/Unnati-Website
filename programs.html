@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Programs — Unnati · उन्नति</title>
+  <meta name="title-en" content="Programs — Unnati · उन्नति" />
+  <meta name="title-hi" content="कार्यक्रम — उन्नति" />
+  <meta name="description" content="Every scholarship, scheme, learning platform, skill program and career resource — curated, verified, and free." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Tiro+Devanagari+Hindi&family=Hind:wght@400;500;600&display=swap" />
+  <link rel="stylesheet" href="css/style.css?v=v15" />
+</head>
+<body>
+
+  <div class="page-trans" aria-hidden="true">
+    <div class="page-trans-mark">Unnati<span class="dot"></span></div>
+  </div>
+
+  <nav class="nav" id="nav">
+    <div class="brand-wrap">
+      <a href="index.html" class="brand">
+        Unnati<span class="brand-dot"></span><span class="brand-hi">उन्नति</span>
+      </a>
+    </div>
+    <div class="nav-center" id="navCenter">
+      <div class="nav-links">
+        <a href="index.html"><span class="n">01</span><span class="lang-en">Home</span><span class="lang-hi">मुख पृष्ठ</span></a>
+        <a href="about.html"><span class="n">02</span><span class="lang-en">About</span><span class="lang-hi">हमारे बारे में</span></a>
+        <a href="programs.html" aria-current="page"><span class="n">03</span><span class="lang-en">Programs</span><span class="lang-hi">कार्यक्रम</span></a>
+        <a href="career-fest.html"><span class="n">04</span><span class="lang-en">Career Fest</span><span class="lang-hi">करियर फ़ेस्ट</span></a>
+        <a href="contact.html"><span class="n">05</span><span class="lang-en">Contact</span><span class="lang-hi">संपर्क</span></a>
+      </div>
+    </div>
+    <div class="nav-right">
+      <button class="lang-toggle" data-lang-toggle aria-label="Toggle language">
+        <span class="lt-en">EN</span><span class="lt-hi">हिं</span>
+      </button>
+      <a href="contact.html#join" class="nav-cta">
+        <span class="lang-en">Join</span><span class="lang-hi">जुड़ें</span>
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+      <button class="nav-toggle" aria-label="Menu"><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <!-- ============ PAGE HEAD — full width ============ -->
+  <header class="page-head">
+    <div class="page-head-inner page-head-wide">
+      <div class="crumb reveal">
+        <a href="index.html"><span class="lang-en">Home</span><span class="lang-hi">मुख पृष्ठ</span></a>
+        &nbsp;/&nbsp;
+        <span class="lang-en">Programs</span><span class="lang-hi">कार्यक्रम</span>
+      </div>
+
+      <h1 class="h-1 reveal reveal-d1" style="color:var(--paper);">
+        <span class="lang-en">Programs &amp; opportunities.</span>
+        <span class="lang-hi">कार्यक्रम और अवसर।</span>
+      </h1>
+
+      <p class="lede reveal reveal-d2" style="color:rgba(247,243,236,0.85);max-width:78ch;font-size:clamp(17px,1.4vw,22px);">
+        <span class="lang-en">Every scholarship, scheme, learning platform, skill program and career opportunity we've gathered for Indian students — all in one place. Five categories, verified content, free to access.</span>
+        <span class="lang-hi">हर वो छात्रवृत्ति, सरकारी योजना, सीखने का मंच, कौशल कार्यक्रम और करियर अवसर जिन्हें हमने भारतीय छात्रों के लिए जुटाया है — एक ही जगह। पाँच श्रेणियाँ, सत्यापित सामग्री, मुफ़्त उपलब्ध।</span>
+      </p>
+
+      <div class="reveal reveal-d3" style="display:flex;gap:10px;flex-wrap:wrap;margin-top:8px;">
+        <span class="chip"><span class="chip-dot"></span><span class="lang-en">Hand-verified</span><span class="lang-hi">हस्त-सत्यापित</span></span>
+        <span class="chip" style="background:rgba(247,243,236,0.10);color:var(--paper);"><span class="chip-dot" style="background:var(--paper);"></span><span class="lang-en">Always free</span><span class="lang-hi">हमेशा मुफ़्त</span></span>
+        <span class="chip" style="background:rgba(247,243,236,0.10);color:var(--paper);"><span class="chip-dot" style="background:var(--paper);"></span><span class="lang-en">Bilingual</span><span class="lang-hi">द्विभाषी</span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ TABS + GRID ============ -->
+  <section>
+    <div class="container">
+      <div class="tabs reveal">
+        <button class="tab active" data-target="all">
+          <span class="lang-en">All Programs</span><span class="lang-hi">सभी कार्यक्रम</span>
+        </button>
+        <button class="tab" data-target="scholarships">
+          <span class="lang-en">Scholarships</span><span class="lang-hi">छात्रवृत्ति</span>
+        </button>
+        <button class="tab" data-target="learning">
+          <span class="lang-en">Learning Platforms</span><span class="lang-hi">सीखने के मंच</span>
+        </button>
+        <button class="tab" data-target="career">
+          <span class="lang-en">Career Opportunities</span><span class="lang-hi">कैरियर के अवसर</span>
+        </button>
+        <button class="tab" data-target="skills">
+          <span class="lang-en">Skill Training</span><span class="lang-hi">कौशल प्रशिक्षण</span>
+        </button>
+        <button class="tab" data-target="schemes">
+          <span class="lang-en">Government Schemes</span><span class="lang-hi">सरकारी योजनाएँ</span>
+        </button>
+      </div>
+
+      <!-- ===== SCHOLARSHIPS ===== -->
+      <div data-panel="scholarships" id="scholarships">
+        <div class="chapter-head" style="margin-bottom:48px;">
+          <div class="chapter-no reveal">§ 01</div>
+          <div class="chapter-title">
+            <span class="chapter-tag reveal"><span class="lang-en">Scholarships</span><span class="lang-hi">छात्रवृत्ति</span></span>
+            <h2 class="h-2 reveal reveal-d1">
+              <span class="lang-en"><span class="serif-italic">Funded</span> futures.</span>
+              <span class="lang-hi"><span class="serif-italic">अनुदान</span> से सजे भविष्य।</span>
+            </h2>
+          </div>
+        </div>
+
+        <div class="program-grid">
+          <article class="program-card reveal" data-program="youth-unstoppable">
+            <div>
+              <span class="program-tag"><span class="lang-en">Youth · Free</span><span class="lang-hi">युवा · मुफ़्त</span></span>
+              <h3 class="program-title" style="margin-top:10px;">
+                <span class="lang-en">Youth Unstoppable Scholarship</span>
+                <span class="lang-hi">यूथ अनस्टॉपेबल छात्रवृत्ति</span>
+              </h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">A free opportunity program empowering young change-makers across India.</span>
+              <span class="lang-hi">भारत भर के युवा बदलाव-निर्माताओं को सशक्त करने वाला कार्यक्रम।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="program-card reveal reveal-d1" data-program="nmmss">
+            <div>
+              <span class="program-tag"><span class="lang-en">Class 8 · Merit</span><span class="lang-hi">कक्षा 8 · मेरिट</span></span>
+              <h3 class="program-title" style="margin-top:10px;">NMMSS</h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">National Means-cum-Merit Scholarship Scheme — up to ₹12,000/year for high-performing students from EWS families.</span>
+              <span class="lang-hi">राष्ट्रीय मीन्स-कम-मेरिट छात्रवृत्ति — आर्थिक रूप से कमज़ोर वर्ग के मेधावी छात्रों के लिए ₹12,000 प्रति वर्ष तक।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="program-card reveal reveal-d2" data-program="kvpy">
+            <div>
+              <span class="program-tag"><span class="lang-en">Science · 11–12</span><span class="lang-hi">विज्ञान · 11–12</span></span>
+              <h3 class="program-title" style="margin-top:10px;">KVPY</h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">Kishore Vaigyanik Protsahan Yojana — fellowship for students pursuing basic sciences research careers.</span>
+              <span class="lang-hi">किशोर वैज्ञानिक प्रोत्साहन योजना — मूल विज्ञान में करियर बनाने वाले छात्रों के लिए फ़ेलोशिप।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="program-card reveal" data-program="prematric-sc">
+            <div>
+              <span class="program-tag"><span class="lang-en">SC · Pre-Matric</span><span class="lang-hi">अनुसूचित जाति · प्री-मैट्रिक</span></span>
+              <h3 class="program-title" style="margin-top:10px;">
+                <span class="lang-en">Pre-Matric Scholarship for SC Students</span>
+                <span class="lang-hi">अनुसूचित जाति प्री-मैट्रिक छात्रवृत्ति</span>
+              </h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">Financial aid for Scheduled Caste students from Class 9–10 to ensure school continuation.</span>
+              <span class="lang-hi">अनुसूचित जाति के कक्षा 9–10 के छात्रों के लिए आर्थिक सहायता।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="program-card reveal reveal-d1" data-program="postmatric-obc">
+            <div>
+              <span class="program-tag"><span class="lang-en">OBC · Post-Matric</span><span class="lang-hi">OBC · पोस्ट-मैट्रिक</span></span>
+              <h3 class="program-title" style="margin-top:10px;">
+                <span class="lang-en">Post-Matric Scholarship for OBC Students</span>
+                <span class="lang-hi">अन्य पिछड़ा वर्ग पोस्ट-मैट्रिक छात्रवृत्ति</span>
+              </h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">Tuition and maintenance support for OBC students in Class 11 and above.</span>
+              <span class="lang-hi">अन्य पिछड़ा वर्ग के कक्षा 11 और उससे ऊपर के छात्रों के लिए शुल्क और रख-रखाव सहायता।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="program-card reveal reveal-d2" data-program="prematric-disabled">
+            <div>
+              <span class="program-tag"><span class="lang-en">Accessibility</span><span class="lang-hi">सुगम्यता</span></span>
+              <h3 class="program-title" style="margin-top:10px;">
+                <span class="lang-en">Pre-Matric Scholarship for Disabled Students</span>
+                <span class="lang-hi">दिव्यांग छात्र प्री-मैट्रिक छात्रवृत्ति</span>
+              </h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">Targeted support for students with disabilities, helping them complete their schooling.</span>
+              <span class="lang-hi">दिव्यांग छात्रों को विद्यालयी शिक्षा पूरी करने में सहायता।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="program-card reveal" data-program="ssa">
+            <div>
+              <span class="program-tag"><span class="lang-en">Universal · Education</span><span class="lang-hi">सर्वव्यापी · शिक्षा</span></span>
+              <h3 class="program-title" style="margin-top:10px;">
+                <span class="lang-en">Sarva Shiksha Abhiyan (SSA)</span>
+                <span class="lang-hi">सर्व शिक्षा अभियान</span>
+              </h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">India's flagship universal elementary education program — ensuring schools and resources reach every child.</span>
+              <span class="lang-hi">भारत का प्रमुख सर्वव्यापी प्राथमिक शिक्षा कार्यक्रम — हर बच्चे तक विद्यालय और संसाधन पहुँचाने का प्रयास।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="program-card reveal reveal-d1" data-program="pm-usp">
+            <div>
+              <span class="program-tag"><span class="lang-en">PM-USP · Higher Ed</span><span class="lang-hi">PM-USP · उच्च शिक्षा</span></span>
+              <h3 class="program-title" style="margin-top:10px;">
+                <span class="lang-en">PM Higher Education Promotion (PM-USP)</span>
+                <span class="lang-hi">पीएम उच्च शिक्षा प्रोत्साहन योजना</span>
+              </h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">A central scheme supporting students through higher education — tuition, fees, and access support.</span>
+              <span class="lang-hi">उच्च शिक्षा में छात्रों को शुल्क, फ़ीस और सुगम्यता सहायता देने वाली केंद्रीय योजना।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="program-card reveal reveal-d2" data-program="pmrf">
+            <div>
+              <span class="program-tag"><span class="lang-en">Research · Postgrad</span><span class="lang-hi">शोध · स्नातकोत्तर</span></span>
+              <h3 class="program-title" style="margin-top:10px;">PMRF</h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">PM Research Fellowship — India's flagship direct-PhD fellowship at IITs, IISc, NITs and IISERs.</span>
+              <span class="lang-hi">पीएम रिसर्च फ़ेलोशिप — IIT, IISc, NIT व IISER में सीधे PhD के लिए भारत की प्रमुख फ़ेलोशिप।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="program-card reveal" data-program="csss">
+            <div>
+              <span class="program-tag"><span class="lang-en">Central · Merit-Means</span><span class="lang-hi">केंद्रीय · मेरिट-मीन्स</span></span>
+              <h3 class="program-title" style="margin-top:10px;">CSSS</h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">Central Sector Scholarship Scheme — merit-cum-means support for college and university study.</span>
+              <span class="lang-hi">केंद्रीय क्षेत्र छात्रवृत्ति योजना — कॉलेज और विश्वविद्यालय के लिए मेरिट-मीन्स सहायता।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="program-card reveal reveal-d1" data-program="ntse">
+            <div>
+              <span class="program-tag"><span class="lang-en">Talent · National</span><span class="lang-hi">प्रतिभा · राष्ट्रीय</span></span>
+              <h3 class="program-title" style="margin-top:10px;">NTSE</h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">National Talent Search Exam — identifying and nurturing exceptionally talented students from Class 10.</span>
+              <span class="lang-hi">राष्ट्रीय प्रतिभा खोज परीक्षा — कक्षा 10 के असाधारण प्रतिभावान छात्रों की पहचान।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="program-card reveal reveal-d2" data-program="aicte-pragati">
+            <div>
+              <span class="program-tag"><span class="lang-en">AICTE · Women</span><span class="lang-hi">AICTE · महिला</span></span>
+              <h3 class="program-title" style="margin-top:10px;">
+                <span class="lang-en">AICTE Pragati Scholarship</span>
+                <span class="lang-hi">AICTE प्रगति छात्रवृत्ति</span>
+              </h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">For girls pursuing technical education — ₹50,000/year, plus a pathway into industry.</span>
+              <span class="lang-hi">तकनीकी शिक्षा में पढ़ रही छात्राओं के लिए — ₹50,000 प्रति वर्ष, साथ ही उद्योग में प्रवेश का मार्ग।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="program-card reveal" data-program="minority-coaching">
+            <div>
+              <span class="program-tag"><span class="lang-en">Minority · Prep</span><span class="lang-hi">अल्पसंख्यक · तैयारी</span></span>
+              <h3 class="program-title" style="margin-top:10px;">
+                <span class="lang-en">Minority Students Coaching Scheme</span>
+                <span class="lang-hi">अल्पसंख्यक छात्र कोचिंग योजना</span>
+              </h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">Preparatory coaching support for students from minority communities, across competitive exams.</span>
+              <span class="lang-hi">अल्पसंख्यक समुदायों के छात्रों के लिए प्रतियोगी परीक्षाओं की तैयारी हेतु कोचिंग सहायता।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+        </div>
+      </div>
+
+      <div class="divider" data-panel="learning"></div>
+
+      <!-- ===== LEARNING ===== -->
+      <div data-panel="learning" id="learning">
+        <div class="chapter-head" style="margin-bottom:48px;">
+          <div class="chapter-no reveal">§ 02</div>
+          <div class="chapter-title">
+            <span class="chapter-tag reveal"><span class="lang-en">Learning Platforms</span><span class="lang-hi">सीखने के मंच</span></span>
+            <h2 class="h-2 reveal reveal-d1">
+              <span class="lang-en">The world's best teachers, <span class="serif-italic">on one shelf</span>.</span>
+              <span class="lang-hi">दुनिया के सर्वश्रेष्ठ शिक्षक, <span class="serif-italic">एक ही जगह</span>।</span>
+            </h2>
+          </div>
+        </div>
+
+        <div class="program-grid">
+          <article class="program-card reveal" data-program="swayam">
+            <div>
+              <span class="program-tag"><span class="lang-en">India · Free</span><span class="lang-hi">भारत · मुफ़्त</span></span>
+              <h3 class="program-title" style="margin-top:10px;">
+                <span class="lang-en">SWAYAM</span><span class="lang-hi">स्वयं</span>
+              </h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">India's flagship online platform — free, university-grade courses from the country's top institutions.</span>
+              <span class="lang-hi">भारत का प्रमुख ऑनलाइन मंच — देश के शीर्ष संस्थानों से मुफ़्त, विश्वविद्यालय-स्तर के पाठ्यक्रम।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="program-card reveal reveal-d1" data-program="nptel">
+            <div>
+              <span class="program-tag"><span class="lang-en">Engineering · IIT</span><span class="lang-hi">अभियांत्रिकी · IIT</span></span>
+              <h3 class="program-title" style="margin-top:10px;">
+                <span class="lang-en">NPTEL</span><span class="lang-hi">एनपीटीईएल</span>
+              </h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">National Programme on Technology Enhanced Learning — IIT-grade video lectures and certifications, free.</span>
+              <span class="lang-hi">तकनीकी संवर्धित अधिगम का राष्ट्रीय कार्यक्रम — IIT स्तर के व्याख्यान और प्रमाणपत्र, मुफ़्त।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="program-card reveal reveal-d2" data-program="khan-academy">
+            <div>
+              <span class="program-tag"><span class="lang-en">K–12 · Free</span><span class="lang-hi">K–12 · मुफ़्त</span></span>
+              <h3 class="program-title" style="margin-top:10px;">
+                <span class="lang-en">Khan Academy</span><span class="lang-hi">खान अकादमी</span>
+              </h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">World-renowned, ad-free education from arithmetic to advanced placement — available in Hindi.</span>
+              <span class="lang-hi">अंकगणित से लेकर उच्च स्तरीय विषयों तक — हिंदी में उपलब्ध, बिना विज्ञापन की विश्व-प्रसिद्ध शिक्षा।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="program-card reveal" data-program="diksha">
+            <div>
+              <span class="program-tag"><span class="lang-en">School · National</span><span class="lang-hi">विद्यालय · राष्ट्रीय</span></span>
+              <h3 class="program-title" style="margin-top:10px;">
+                <span class="lang-en">DIKSHA</span><span class="lang-hi">दीक्षा</span>
+              </h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">India's official school education platform — textbooks, lessons, teacher resources, all in one place.</span>
+              <span class="lang-hi">भारत का आधिकारिक विद्यालयी शिक्षा मंच — पाठ्यपुस्तकें, पाठ, शिक्षक संसाधन, एक ही जगह।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="program-card reveal reveal-d1" data-program="coursera">
+            <div>
+              <span class="program-tag"><span class="lang-en">Global · Universities</span><span class="lang-hi">वैश्विक · विश्वविद्यालय</span></span>
+              <h3 class="program-title" style="margin-top:10px;">
+                <span class="lang-en">Coursera</span><span class="lang-hi">कोर्सेरा</span>
+              </h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">Stanford, Yale, Google and more — many courses free to audit, certifications available.</span>
+              <span class="lang-hi">स्टैनफ़ोर्ड, येल, गूगल आदि — कई पाठ्यक्रम मुफ़्त, प्रमाणपत्र भी उपलब्ध।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="program-card reveal reveal-d2" data-program="masterclass">
+            <div>
+              <span class="program-tag"><span class="lang-en">Experts · Premium</span><span class="lang-hi">विशेषज्ञ · प्रीमियम</span></span>
+              <h3 class="program-title" style="margin-top:10px;">
+                <span class="lang-en">MasterClass</span><span class="lang-hi">मास्टरक्लास</span>
+              </h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">Learn from the world's best — chefs, writers, scientists, athletes — taught by the experts themselves.</span>
+              <span class="lang-hi">दुनिया के सबसे बेहतरीन से सीखिए — शेफ़, लेखक, वैज्ञानिक, खिलाड़ी — जो स्वयं पढ़ाते हैं।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="program-card reveal" data-program="duolingo">
+            <div>
+              <span class="program-tag"><span class="lang-en">Languages</span><span class="lang-hi">भाषाएँ</span></span>
+              <h3 class="program-title" style="margin-top:10px;">
+                <span class="lang-en">Duolingo</span><span class="lang-hi">डुओलिंगो</span>
+              </h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">Gamified language learning — free, bite-sized, surprisingly effective.</span>
+              <span class="lang-hi">गेम जैसा भाषा-शिक्षण — मुफ़्त, छोटे टुकड़ों में, अद्भुत रूप से प्रभावी।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="program-card reveal reveal-d1" data-program="ekalpa">
+            <div>
+              <span class="program-tag"><span class="lang-en">Design · Digital</span><span class="lang-hi">डिज़ाइन · डिजिटल</span></span>
+              <h3 class="program-title" style="margin-top:10px;">
+                <span class="lang-en">e-Kalpa</span><span class="lang-hi">ई-कल्प</span>
+              </h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">Digital design training for creative minds — an MHRD-backed initiative.</span>
+              <span class="lang-hi">सर्जनात्मक छात्रों के लिए डिजिटल डिज़ाइन प्रशिक्षण — MHRD-समर्थित पहल।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="program-card reveal reveal-d2" data-program="easyshiksha">
+            <div>
+              <span class="program-tag"><span class="lang-en">Vocational · Online</span><span class="lang-hi">व्यावसायिक · ऑनलाइन</span></span>
+              <h3 class="program-title" style="margin-top:10px;">
+                <span class="lang-en">EasyShiksha</span><span class="lang-hi">ईज़ीशिक्षा</span>
+              </h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">Online vocational and skill-based courses for Indian students — accessible and affordable.</span>
+              <span class="lang-hi">भारतीय छात्रों के लिए ऑनलाइन व्यावसायिक और कौशल आधारित पाठ्यक्रम — सुलभ और सस्ता।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+        </div>
+      </div>
+
+      <div class="divider" data-panel="career"></div>
+
+      <!-- ===== CAREER ===== -->
+      <div data-panel="career" id="career">
+        <div class="chapter-head" style="margin-bottom:48px;">
+          <div class="chapter-no reveal">§ 03</div>
+          <div class="chapter-title">
+            <span class="chapter-tag reveal"><span class="lang-en">Career Opportunities</span><span class="lang-hi">कैरियर के अवसर</span></span>
+            <h2 class="h-2 reveal reveal-d1">
+              <span class="lang-en">The first <span class="serif-italic">paycheque</span>, sooner.</span>
+              <span class="lang-hi">पहली <span class="serif-italic">कमाई</span>, और जल्दी।</span>
+            </h2>
+          </div>
+        </div>
+
+        <div class="program-grid">
+          <article class="program-card reveal" data-program="internshala">
+            <div>
+              <span class="program-tag"><span class="lang-en">Internships · India</span><span class="lang-hi">इंटर्नशिप · भारत</span></span>
+              <h3 class="program-title" style="margin-top:10px;">
+                <span class="lang-en">Internshala</span><span class="lang-hi">इंटर्नशाला</span>
+              </h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">India's largest internship and entry-level job marketplace.</span>
+              <span class="lang-hi">भारत का सबसे बड़ा इंटर्नशिप और प्रवेश-स्तर नौकरी मंच।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="program-card reveal reveal-d1" data-program="upwork">
+            <div>
+              <span class="program-tag"><span class="lang-en">Freelance · Global</span><span class="lang-hi">फ़्रीलांस · वैश्विक</span></span>
+              <h3 class="program-title" style="margin-top:10px;">
+                <span class="lang-en">Upwork</span><span class="lang-hi">अपवर्क</span>
+              </h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">A global freelance marketplace — Indian students compete and win on talent.</span>
+              <span class="lang-hi">वैश्विक फ़्रीलांस मंच — जहाँ भारतीय छात्र प्रतिभा के बल पर सफलता पाते हैं।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="program-card reveal reveal-d2" data-program="fiverr">
+            <div>
+              <span class="program-tag"><span class="lang-en">Freelance · Services</span><span class="lang-hi">फ़्रीलांस · सेवाएँ</span></span>
+              <h3 class="program-title" style="margin-top:10px;">
+                <span class="lang-en">Fiverr</span><span class="lang-hi">फ़ाइवर</span>
+              </h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">Sell what you can do — design, code, writing, voice — to customers around the world.</span>
+              <span class="lang-hi">अपनी क्षमता बेचिए — डिज़ाइन, कोडिंग, लेखन, आवाज़ — दुनिया भर के ग्राहकों को।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="program-card reveal" data-program="workindia">
+            <div>
+              <span class="program-tag"><span class="lang-en">Jobs · Blue + Grey collar</span><span class="lang-hi">नौकरियाँ · श्रमिक</span></span>
+              <h3 class="program-title" style="margin-top:10px;">
+                <span class="lang-en">WorkIndia</span><span class="lang-hi">वर्कइंडिया</span>
+              </h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">A jobs platform serious about blue- and grey-collar opportunities for Indian workers.</span>
+              <span class="lang-hi">श्रमिक और तकनीकी नौकरियों को गंभीरता से लेने वाला भारतीय जॉब मंच।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="program-card reveal reveal-d1" data-program="peopleperhour">
+            <div>
+              <span class="program-tag"><span class="lang-en">Hourly · UK-born</span><span class="lang-hi">घंटा-आधारित</span></span>
+              <h3 class="program-title" style="margin-top:10px;">
+                <span class="lang-en">PeoplePerHour</span><span class="lang-hi">पीपलपरआवर</span>
+              </h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">A UK-based freelance marketplace ideal for students billing internationally.</span>
+              <span class="lang-hi">अंतरराष्ट्रीय स्तर पर बिल भेजने वाले छात्रों के लिए ब्रिटेन-आधारित फ़्रीलांस मंच।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="program-card reveal reveal-d2" data-program="truelancer">
+            <div>
+              <span class="program-tag"><span class="lang-en">Indian · Freelance</span><span class="lang-hi">भारतीय · फ़्रीलांस</span></span>
+              <h3 class="program-title" style="margin-top:10px;">
+                <span class="lang-en">Truelancer</span><span class="lang-hi">ट्रूलांसर</span>
+              </h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">An India-grown freelance platform — independent contracts across design, writing, IT, and more.</span>
+              <span class="lang-hi">भारत में जन्मा फ़्रीलांस मंच — डिज़ाइन, लेखन, IT आदि में स्वतंत्र अनुबंध।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="program-card reveal" data-program="amazon-associates">
+            <div>
+              <span class="program-tag"><span class="lang-en">Affiliate</span><span class="lang-hi">एफ़िलिएट</span></span>
+              <h3 class="program-title" style="margin-top:10px;">
+                <span class="lang-en">Amazon Associates</span><span class="lang-hi">अमेज़न एसोसिएट्स</span>
+              </h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">Earn while you study — affiliate income for creators, bloggers and student communities.</span>
+              <span class="lang-hi">पढ़ाई के साथ कमाई — सर्जक, ब्लॉगर और छात्र समुदायों के लिए एफ़िलिएट आय।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+        </div>
+      </div>
+
+      <div class="divider" data-panel="skills"></div>
+
+      <!-- ===== SKILLS ===== -->
+      <div data-panel="skills" id="skills">
+        <div class="chapter-head" style="margin-bottom:48px;">
+          <div class="chapter-no reveal">§ 04</div>
+          <div class="chapter-title">
+            <span class="chapter-tag reveal"><span class="lang-en">Skill Training</span><span class="lang-hi">कौशल प्रशिक्षण</span></span>
+            <h2 class="h-2 reveal reveal-d1">
+              <span class="lang-en">Government-backed <span class="serif-italic">certifications</span>.</span>
+              <span class="lang-hi">सरकार-समर्थित <span class="serif-italic">प्रमाणपत्र</span>।</span>
+            </h2>
+          </div>
+        </div>
+
+        <div class="program-grid">
+          <article class="program-card reveal" data-program="skill-india">
+            <div>
+              <span class="program-tag"><span class="lang-en">National · Mission</span><span class="lang-hi">राष्ट्रीय · मिशन</span></span>
+              <h3 class="program-title" style="margin-top:10px;">
+                <span class="lang-en">Skill India Mission</span><span class="lang-hi">स्किल इंडिया मिशन</span>
+              </h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">India's flagship initiative to certify and place youth into market-ready vocations.</span>
+              <span class="lang-hi">युवाओं को रोज़गार-योग्य प्रमाणित करने का भारत का प्रमुख कार्यक्रम।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="program-card reveal reveal-d1" data-program="pmkvy">
+            <div>
+              <span class="program-tag"><span class="lang-en">PMKVY · Vocational</span><span class="lang-hi">PMKVY · व्यावसायिक</span></span>
+              <h3 class="program-title" style="margin-top:10px;">
+                <span class="lang-en">PM Kaushal Vikas Yojana</span><span class="lang-hi">प्रधानमंत्री कौशल विकास योजना</span>
+              </h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">Short-term training and certification, with placement support after completion.</span>
+              <span class="lang-hi">अल्पकालिक प्रशिक्षण और प्रमाणन — पूरा होने पर रोज़गार सहायता।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="program-card reveal reveal-d2" data-program="ddu-gky">
+            <div>
+              <span class="program-tag"><span class="lang-en">Rural · Placement</span><span class="lang-hi">ग्रामीण · नियुक्ति</span></span>
+              <h3 class="program-title" style="margin-top:10px;">DDU-GKY</h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">Deen Dayal Upadhyay Grameen Kaushalya Yojana — rural youth into placement-ready professionals.</span>
+              <span class="lang-hi">दीन दयाल उपाध्याय ग्रामीण कौशल्या योजना — ग्रामीण युवाओं को रोज़गार-तैयार पेशेवर बनाना।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="program-card reveal" data-program="naps">
+            <div>
+              <span class="program-tag"><span class="lang-en">Apprenticeships</span><span class="lang-hi">शिक्षुता</span></span>
+              <h3 class="program-title" style="margin-top:10px;">
+                <span class="lang-en">National Apprenticeship Incentive (NAPS)</span><span class="lang-hi">राष्ट्रीय शिक्षुता प्रोत्साहन योजना</span>
+              </h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">Earn while you learn — government-incentivised apprenticeships across industries.</span>
+              <span class="lang-hi">सीखते हुए कमाइए — सरकारी प्रोत्साहन वाली शिक्षुता विभिन्न उद्योगों में।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="program-card reveal reveal-d1" data-program="strive">
+            <div>
+              <span class="program-tag"><span class="lang-en">Quality · Vocational</span><span class="lang-hi">गुणवत्ता · व्यावसायिक</span></span>
+              <h3 class="program-title" style="margin-top:10px;">STRIVE Program</h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">A World Bank-supported initiative to improve the quality of vocational training in India.</span>
+              <span class="lang-hi">भारत में व्यावसायिक प्रशिक्षण की गुणवत्ता बढ़ाने वाली विश्व बैंक-समर्थित पहल।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="program-card reveal reveal-d2" data-program="startup-india-learning">
+            <div>
+              <span class="program-tag"><span class="lang-en">Startups · Learning</span><span class="lang-hi">स्टार्टअप · सीख</span></span>
+              <h3 class="program-title" style="margin-top:10px;">
+                <span class="lang-en">Startup India Learning</span><span class="lang-hi">स्टार्टअप इंडिया लर्निंग</span>
+              </h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">A free, structured course for the student who's already thinking like a founder.</span>
+              <span class="lang-hi">उन छात्रों के लिए जो पहले से ही उद्यमी की तरह सोच रहे हैं — मुफ़्त, संरचित पाठ्यक्रम।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="program-card reveal" data-program="udaan">
+            <div>
+              <span class="program-tag"><span class="lang-en">Women · Education</span><span class="lang-hi">महिला · शिक्षा</span></span>
+              <h3 class="program-title" style="margin-top:10px;">
+                <span class="lang-en">Udaan Initiative</span><span class="lang-hi">उड़ान योजना</span>
+              </h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">Empowering young women through specialised education and career-building programs.</span>
+              <span class="lang-hi">विशेष शिक्षा और करियर-निर्माण कार्यक्रमों के माध्यम से युवतियों का सशक्तिकरण।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+        </div>
+      </div>
+
+      <div class="divider" data-panel="schemes"></div>
+
+      <!-- ===== SCHEMES ===== -->
+      <div data-panel="schemes" id="schemes">
+        <div class="chapter-head" style="margin-bottom:48px;">
+          <div class="chapter-no reveal">§ 05</div>
+          <div class="chapter-title">
+            <span class="chapter-tag reveal"><span class="lang-en">Government Schemes</span><span class="lang-hi">सरकारी योजनाएँ</span></span>
+            <h2 class="h-2 reveal reveal-d1">
+              <span class="lang-en">The <span class="serif-italic">safety nets</span> no one explained.</span>
+              <span class="lang-hi">वो <span class="serif-italic">सुरक्षा-कवच</span> जिन्हें किसी ने नहीं समझाया।</span>
+            </h2>
+          </div>
+        </div>
+
+        <div class="program-grid">
+          <article class="program-card reveal" data-program="ayushman-bharat">
+            <div>
+              <span class="program-tag"><span class="lang-en">Health · Universal</span><span class="lang-hi">स्वास्थ्य · सार्वभौमिक</span></span>
+              <h3 class="program-title" style="margin-top:10px;">
+                <span class="lang-en">Ayushman Bharat</span><span class="lang-hi">आयुष्मान भारत</span>
+              </h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">Up to ₹5 lakh of family health cover per year for crores of Indians who otherwise couldn't afford it.</span>
+              <span class="lang-hi">करोड़ों भारतीय परिवारों के लिए प्रति वर्ष ₹5 लाख तक का स्वास्थ्य कवच।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="program-card reveal reveal-d1" data-program="pmjdy">
+            <div>
+              <span class="program-tag"><span class="lang-en">Banking · Inclusion</span><span class="lang-hi">बैंकिंग · समावेशन</span></span>
+              <h3 class="program-title" style="margin-top:10px;">
+                <span class="lang-en">PM Jan Dhan Yojana</span><span class="lang-hi">पीएम जन धन योजना</span>
+              </h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">A zero-balance bank account for every citizen — the foundation for every other benefit.</span>
+              <span class="lang-hi">हर नागरिक के लिए शून्य-बैलेंस बैंक खाता — हर दूसरे लाभ की नींव।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="program-card reveal reveal-d2" data-program="sukanya">
+            <div>
+              <span class="program-tag"><span class="lang-en">Girls · Savings</span><span class="lang-hi">बेटियाँ · बचत</span></span>
+              <h3 class="program-title" style="margin-top:10px;">
+                <span class="lang-en">Sukanya Samriddhi Yojana</span><span class="lang-hi">सुकन्या समृद्धि योजना</span>
+              </h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">A high-interest, government-backed savings scheme for a girl child's education and marriage.</span>
+              <span class="lang-hi">बेटी की शिक्षा और विवाह के लिए उच्च-ब्याज वाली सरकारी बचत योजना।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="program-card reveal" data-program="pmjjby">
+            <div>
+              <span class="program-tag"><span class="lang-en">Insurance · Life</span><span class="lang-hi">बीमा · जीवन</span></span>
+              <h3 class="program-title" style="margin-top:10px;">PMJJBY</h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">Pradhan Mantri Jeevan Jyoti Bima Yojana — ₹2 lakh life cover for ₹436/year.</span>
+              <span class="lang-hi">प्रधानमंत्री जीवन ज्योति बीमा योजना — ₹436 प्रति वर्ष में ₹2 लाख का जीवन कवच।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="program-card reveal reveal-d1" data-program="pmsby">
+            <div>
+              <span class="program-tag"><span class="lang-en">Insurance · Accident</span><span class="lang-hi">बीमा · दुर्घटना</span></span>
+              <h3 class="program-title" style="margin-top:10px;">PMSBY</h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">Pradhan Mantri Suraksha Bima Yojana — accidental death and disability cover at just ₹20/year.</span>
+              <span class="lang-hi">प्रधानमंत्री सुरक्षा बीमा योजना — मात्र ₹20 प्रति वर्ष में दुर्घटना/विकलांगता कवच।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="program-card reveal reveal-d2" data-program="esic">
+            <div>
+              <span class="program-tag"><span class="lang-en">Workers · Social</span><span class="lang-hi">कामगार · सामाजिक</span></span>
+              <h3 class="program-title" style="margin-top:10px;">
+                <span class="lang-en">ESIC Scheme</span><span class="lang-hi">ईएसआईसी योजना</span>
+              </h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">Social security for Indian workers — medical, sickness and maternity benefits.</span>
+              <span class="lang-hi">भारतीय कामगारों के लिए सामाजिक सुरक्षा — चिकित्सा, बीमारी और मातृत्व लाभ।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="program-card reveal" data-program="jan-aushadhi">
+            <div>
+              <span class="program-tag"><span class="lang-en">Medicines · Affordable</span><span class="lang-hi">दवाएँ · सस्ती</span></span>
+              <h3 class="program-title" style="margin-top:10px;">
+                <span class="lang-en">PM Jan Aushadhi</span><span class="lang-hi">पीएम जन औषधि</span>
+              </h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">Affordable generic medicines at thousands of Jan Aushadhi Kendras across India.</span>
+              <span class="lang-hi">भारत भर के हज़ारों जन औषधि केंद्रों पर सस्ती जेनेरिक दवाइयाँ।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="program-card reveal reveal-d1" data-program="ayush">
+            <div>
+              <span class="program-tag"><span class="lang-en">AYUSH · Wellness</span><span class="lang-hi">आयुष · स्वास्थ्य</span></span>
+              <h3 class="program-title" style="margin-top:10px;">
+                <span class="lang-en">National AYUSH Mission</span><span class="lang-hi">राष्ट्रीय आयुष मिशन</span>
+              </h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">Government mission promoting traditional Indian systems of medicine and wellness.</span>
+              <span class="lang-hi">पारंपरिक भारतीय चिकित्सा और स्वास्थ्य पद्धतियों को बढ़ावा देने वाला सरकारी मिशन।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="program-card reveal reveal-d2" data-program="kgbv">
+            <div>
+              <span class="program-tag"><span class="lang-en">Girls · Residential</span><span class="lang-hi">बेटियाँ · आवासीय</span></span>
+              <h3 class="program-title" style="margin-top:10px;">KGBV</h3>
+            </div>
+            <p class="program-desc">
+              <span class="lang-en">Kasturba Gandhi Balika Vidyalaya — residential schools for girls from disadvantaged communities.</span>
+              <span class="lang-hi">कस्तूरबा गांधी बालिका विद्यालय — वंचित समुदायों की बेटियों के लिए आवासीय विद्यालय।</span>
+            </p>
+            <a href="#" class="program-link"><span class="lang-en">View details</span><span class="lang-hi">विवरण देखें</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="section-dark">
+    <div class="container" style="text-align:center;">
+      <h2 class="h-display reveal" style="color:var(--paper);max-width:20ch;margin:0 auto;">
+        <span class="lang-en">Don't see what you need? <span class="serif-italic" style="color:var(--saffron);">Ask us.</span></span>
+        <span class="lang-hi">जो चाहिए वो यहाँ नहीं? <span class="serif-italic" style="color:var(--saffron);">हमसे पूछिए।</span></span>
+      </h2>
+      <p class="lede reveal reveal-d1" style="color:rgba(248,242,222,0.78);margin:32px auto 48px;text-align:center;max-width:50ch;">
+        <span class="lang-en">Our team replies to every message — tell us your class, your stream, your situation, and we'll map your options.</span>
+        <span class="lang-hi">हमारी टीम हर संदेश का जवाब देती है — अपनी कक्षा, विषय और परिस्थिति बताइए, हम आपके लिए विकल्प तैयार करेंगे।</span>
+      </p>
+      <div class="reveal reveal-d2" style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
+        <a href="contact.html" class="btn btn--saffron">
+          <span class="lang-en">Talk to us</span><span class="lang-hi">बात कीजिए</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand">Unnati<span class="brand-dot"></span><span class="brand-hi">उन्नति</span></div>
+          <p class="footer-tagline">
+            <span class="lang-en">An Indian NGO putting the right information in front of every student — so they can dream bigger, and reach further.</span>
+            <span class="lang-hi">एक ऐसा मंच जो हर छात्र तक सही जानकारी पहुँचाता है — ताकि वे बड़े सपने देख सकें और उन्हें साकार कर सकें।</span>
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4><span class="lang-en">Explore</span><span class="lang-hi">देखें</span></h4>
+          <ul>
+            <li><a href="index.html"><span class="lang-en">Home</span><span class="lang-hi">मुख पृष्ठ</span></a></li>
+            <li><a href="about.html"><span class="lang-en">About</span><span class="lang-hi">हमारे बारे में</span></a></li>
+            <li><a href="programs.html"><span class="lang-en">Programs</span><span class="lang-hi">कार्यक्रम</span></a></li>
+            <li><a href="career-fest.html"><span class="lang-en">Career Fest</span><span class="lang-hi">करियर फ़ेस्ट</span></a></li>
+            <li><a href="contact.html"><span class="lang-en">Contact</span><span class="lang-hi">संपर्क</span></a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4><span class="lang-en">Programs</span><span class="lang-hi">कार्यक्रम</span></h4>
+          <ul>
+            <li><a href="programs.html#scholarships"><span class="lang-en">Scholarships</span><span class="lang-hi">छात्रवृत्ति</span></a></li>
+            <li><a href="programs.html#learning"><span class="lang-en">Learning</span><span class="lang-hi">सीखने के मंच</span></a></li>
+            <li><a href="programs.html#skills"><span class="lang-en">Skill training</span><span class="lang-hi">कौशल प्रशिक्षण</span></a></li>
+            <li><a href="programs.html#schemes"><span class="lang-en">Govt schemes</span><span class="lang-hi">सरकारी योजनाएँ</span></a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4><span class="lang-en">Connect</span><span class="lang-hi">संपर्क</span></h4>
+          <ul>
+            <li><a href="mailto:hello@unnatiorg.com">hello@unnatiorg.com</a></li>
+            <li><a href="contact.html#join"><span class="lang-en">Volunteer</span><span class="lang-hi">स्वयंसेवक</span></a></li>
+            <li><a href="contact.html"><span class="lang-en">Partner</span><span class="lang-hi">साझेदार</span></a></li>
+            <li><a href="contact.html#donate"><span class="lang-en">Donate</span><span class="lang-hi">दान करें</span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="giant-mark">
+        <span class="lang-en">Unnati</span><span class="lang-hi">उन्नति</span>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year></span> Unnati · <span class="lang-en">An Indian non-profit.</span><span class="lang-hi">एक भारतीय ग़ैर-लाभकारी संस्था।</span></span>
+        <span class="lang-en">शिक्षा सबका अधिकार है — Education is everyone's right.</span>
+        <span class="lang-hi">शिक्षा सबका अधिकार है।</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ PROGRAM MODAL ============ -->
+  <div class="program-modal" id="programModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="programModalTitle">
+    <div class="program-modal-overlay" data-modal-close></div>
+    <div class="program-modal-card">
+      <button class="program-modal-close" type="button" data-modal-close aria-label="Close">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+      <span class="program-modal-tag" data-modal-tag></span>
+      <h3 class="program-modal-title" id="programModalTitle" data-modal-title></h3>
+      <p class="program-modal-desc" data-modal-desc></p>
+      <div class="program-modal-rows" data-modal-rows></div>
+      <a class="program-modal-cta" data-modal-cta target="_blank" rel="noopener noreferrer">
+        <span class="lang-en">Visit official site</span>
+        <span class="lang-hi">आधिकारिक साइट खोलें</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+      <span class="program-modal-cta-host" data-modal-host></span>
+      <p class="program-modal-foot">
+        <span class="lang-en">Not sure where to start? <a href="contact.html">Write to us</a> and we'll walk you through it.</span>
+        <span class="lang-hi">कहाँ से शुरू करें, समझ नहीं आ रहा? <a href="contact.html">हमें लिखिए</a> — हम साथ चलेंगे।</span>
+      </p>
+    </div>
+  </div>
+
+  <script src="js/main.js?v=v15"></script>
+  <script src="js/programs.js?v=v15"></script>
+</body>
+</html>
