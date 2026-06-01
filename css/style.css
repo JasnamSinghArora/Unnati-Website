@@ -562,18 +562,31 @@ html[lang="hi"].nav-dark .lang-toggle .lt-hi { color: var(--ink); }
 @media (max-width: 920px) {
   .nav { grid-template-columns: 1fr auto auto; }
   .nav-center {
+    /* Override the desktop .nav-center { justify-self: center } so the fixed
+       overlay isn't sized to the inline content width (Chrome quirk) */
+    justify-self: stretch;
     position: fixed;
-    top: 0; left: 0; right: 0; bottom: 0;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    height: 100dvh;
     background: var(--ink-deep);
     color: var(--paper);
     display: flex;
     align-items: center;
     justify-content: center;
     transform: translateY(-100%);
-    transition: transform 0.7s var(--ease-in-out);
-    z-index: 999;
+    transition: transform 0.45s var(--ease-in-out);
+    z-index: 1100; /* Above the nav bar (1000) so it covers everything */
+    pointer-events: none;
+    visibility: hidden;
   }
-  .nav-center.open { transform: translateY(0); }
+  .nav-center.open {
+    transform: translateY(0);
+    pointer-events: auto;
+    visibility: visible;
+  }
   .nav-links {
     flex-direction: column;
     gap: 32px;
@@ -582,8 +595,14 @@ html[lang="hi"].nav-dark .lang-toggle .lt-hi { color: var(--ink); }
     font-weight: 300;
   }
   .nav-links a::after { display: none; }
-  .nav-toggle { display: block; }
+  .nav-toggle {
+    display: block;
+    position: relative;
+    z-index: 1200; /* Keep toggle clickable on top of the open overlay */
+  }
   .nav-cta { display: none; }
+  /* Stop the body from scrolling behind the open menu */
+  body.nav-open { overflow: hidden; }
 }
 
 /* ============================================

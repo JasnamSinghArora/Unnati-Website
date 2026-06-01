@@ -165,18 +165,23 @@
   const navToggle = document.querySelector('.nav-toggle');
   const navCenter = document.querySelector('.nav-center');
   if (navToggle && navCenter) {
-    navToggle.addEventListener('click', () => {
-      const open = navCenter.classList.toggle('open');
+    const setOpen = (open) => {
+      navCenter.classList.toggle('open', open);
       navToggle.classList.toggle('open', open);
-      document.body.style.overflow = open ? 'hidden' : '';
+      navToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      document.body.classList.toggle('nav-open', open);
+    };
+    navToggle.setAttribute('aria-expanded', 'false');
+    navToggle.addEventListener('click', () => {
+      setOpen(!navCenter.classList.contains('open'));
     });
     navCenter.querySelectorAll('a').forEach((a) =>
-      a.addEventListener('click', () => {
-        navCenter.classList.remove('open');
-        navToggle.classList.remove('open');
-        document.body.style.overflow = '';
-      })
+      a.addEventListener('click', () => setOpen(false))
     );
+    // ESC closes the menu
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && navCenter.classList.contains('open')) setOpen(false);
+    });
   }
 
   /* -----------------------------------------------------
