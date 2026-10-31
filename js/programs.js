@@ -24,7 +24,7 @@
     nmmss: {
       tag: { en: 'Class 8 · Merit', hi: 'कक्षा 8 · मेरिट' },
       title: {
-        en: 'NMMSS — National Means-cum-Merit Scholarship',
+        en: 'NMMSS, National Means-cum-Merit Scholarship',
         hi: 'राष्ट्रीय मीन्स-कम-मेरिट छात्रवृत्ति',
       },
       desc: {
@@ -44,7 +44,7 @@
     kvpy: {
       tag: { en: 'Science · 11–12', hi: 'विज्ञान · 11–12' },
       title: {
-        en: 'KVPY — Kishore Vaigyanik Protsahan Yojana',
+        en: 'KVPY, Kishore Vaigyanik Protsahan Yojana',
         hi: 'किशोर वैज्ञानिक प्रोत्साहन योजना',
       },
       desc: {
@@ -89,7 +89,7 @@
       },
       desc: {
         en: 'For OBC students in Class 11 and above, including ITI, polytechnic, undergraduate and postgraduate courses. The scholarship covers tuition, exam fees and a monthly maintenance allowance.',
-        hi: 'कक्षा 11 और उससे ऊपर के OBC छात्रों के लिए — ITI, पॉलिटेक्निक, स्नातक और स्नातकोत्तर भी शामिल। इसमें शुल्क, परीक्षा फ़ीस और मासिक रख-रखाव भत्ता मिलता है।',
+        hi: 'कक्षा 11 और उससे ऊपर के OBC छात्रों के लिए, ITI, पॉलिटेक्निक, स्नातक और स्नातकोत्तर भी शामिल। इसमें शुल्क, परीक्षा फ़ीस और मासिक रख-रखाव भत्ता मिलता है।',
       },
       eligibility: {
         en: 'OBC students in Class 11 or higher. Family income usually below ₹1.5 lakh per year for the central component.',
@@ -144,7 +144,7 @@
     'pm-usp': {
       tag: { en: 'PM-USP · Higher Ed', hi: 'PM-USP · उच्च शिक्षा' },
       title: {
-        en: 'PM-USP — PM Uchchatar Shiksha Protsahan',
+        en: 'PM-USP, PM Uchchatar Shiksha Protsahan',
         hi: 'पीएम उच्चतर शिक्षा प्रोत्साहन (PM-USP)',
       },
       desc: {
@@ -163,7 +163,7 @@
     },
     pmrf: {
       tag: { en: 'Research · Postgrad', hi: 'शोध · स्नातकोत्तर' },
-      title: { en: "PMRF — Prime Minister's Research Fellowship", hi: 'प्रधानमंत्री शोध फ़ेलोशिप' },
+      title: { en: "PMRF, Prime Minister's Research Fellowship", hi: 'प्रधानमंत्री शोध फ़ेलोशिप' },
       desc: {
         en: 'A direct-PhD fellowship at IITs, IISc, NITs and IISERs. Fellows receive a monthly stipend of around ₹70,000 to ₹80,000 plus a research grant, so a research career does not have to wait for funding.',
         hi: 'IIT, IISc, NIT और IISER में सीधे-PhD के लिए फ़ेलोशिप। फ़ेलो को हर महीने लगभग ₹70,000 से ₹80,000 का स्टाइपेंड और एक शोध अनुदान मिलता है, ताकि शोध का सफ़र पैसों का इंतज़ार न करे।',
@@ -181,7 +181,7 @@
     csss: {
       tag: { en: 'Central · Merit-Means', hi: 'केंद्रीय · मेरिट-मीन्स' },
       title: {
-        en: 'CSSS — Central Sector Scholarship Scheme',
+        en: 'CSSS, Central Sector Scholarship Scheme',
         hi: 'केंद्रीय क्षेत्र छात्रवृत्ति योजना',
       },
       desc: {
@@ -201,7 +201,7 @@
     ntse: {
       tag: { en: 'Talent · National', hi: 'प्रतिभा · राष्ट्रीय' },
       title: {
-        en: 'NTSE — National Talent Search Examination',
+        en: 'NTSE, National Talent Search Examination',
         hi: 'राष्ट्रीय प्रतिभा खोज परीक्षा',
       },
       desc: {
@@ -213,8 +213,8 @@
         hi: 'भारत के किसी भी मान्यता प्राप्त स्कूल के कक्षा 10 छात्र (जब परीक्षा सक्रिय थी)। विदेश में पढ़ रहे भारतीय छात्र सीधे स्टेज II में बैठ सकते थे।',
       },
       apply: {
-        en: 'Watch the NCERT Programmes page for any revival notification. The exam runs in two stages — state and national.',
-        hi: 'पुनरारंभ की सूचना के लिए NCERT कार्यक्रम पेज देखते रहें। परीक्षा दो चरणों में होती है — राज्य और राष्ट्रीय।',
+        en: 'Watch the NCERT Programmes page for any revival notification. The exam runs in two stages, state and national.',
+        hi: 'पुनरारंभ की सूचना के लिए NCERT कार्यक्रम पेज देखते रहें। परीक्षा दो चरणों में होती है, राज्य और राष्ट्रीय।',
       },
       url: 'https://ncert.nic.in/programmes.php',
     },
@@ -239,8 +239,8 @@
       tag: { en: 'Minority · Prep', hi: 'अल्पसंख्यक · तैयारी' },
       title: { en: 'Coaching for Minority Students', hi: 'अल्पसंख्यक छात्रों के लिए कोचिंग' },
       desc: {
-        en: 'A scheme of the Ministry of Minority Affairs that funds free coaching for students from minority communities preparing for competitive exams — civil services, banking, SSC, engineering and medical entrance.',
-        hi: 'अल्पसंख्यक कार्य मंत्रालय की योजना, जिसके तहत अल्पसंख्यक समुदायों के छात्रों को प्रतियोगी परीक्षाओं — सिविल सेवा, बैंकिंग, SSC, इंजीनियरिंग, मेडिकल — की मुफ़्त कोचिंग दी जाती है।',
+        en: 'A scheme of the Ministry of Minority Affairs that funds free coaching for students from minority communities preparing for competitive exams, civil services, banking, SSC, engineering and medical entrance.',
+        hi: 'अल्पसंख्यक कार्य मंत्रालय की योजना, जिसके तहत अल्पसंख्यक समुदायों के छात्रों को प्रतियोगी परीक्षाओं, सिविल सेवा, बैंकिंग, SSC, इंजीनियरिंग, मेडिकल, की मुफ़्त कोचिंग दी जाती है।',
       },
       eligibility: {
         en: 'Students from notified minority communities. Income and exam-eligibility conditions apply, listed on the ministry site.',
@@ -259,7 +259,7 @@
       title: { en: 'SWAYAM', hi: 'स्वयं' },
       desc: {
         en: "India's national online learning platform. It offers free, university-grade courses from top Indian institutions, with optional paid certification after a final exam.",
-        hi: 'भारत का राष्ट्रीय ऑनलाइन शिक्षण मंच। यहाँ देश के शीर्ष संस्थानों से मुफ़्त, विश्वविद्यालय-स्तर के पाठ्यक्रम मिलते हैं — अंतिम परीक्षा के बाद वैकल्पिक पेड प्रमाणपत्र भी।',
+        hi: 'भारत का राष्ट्रीय ऑनलाइन शिक्षण मंच। यहाँ देश के शीर्ष संस्थानों से मुफ़्त, विश्वविद्यालय-स्तर के पाठ्यक्रम मिलते हैं, अंतिम परीक्षा के बाद वैकल्पिक पेड प्रमाणपत्र भी।',
       },
       eligibility: {
         en: 'Open to anyone. No prerequisites for most courses.',
@@ -276,11 +276,11 @@
       title: { en: 'NPTEL', hi: 'एनपीटीईएल' },
       desc: {
         en: 'Video lecture courses from the IITs and IISc, covering engineering, science, humanities and management. Free to watch; paid certification is available after a proctored exam.',
-        hi: 'IIT और IISc के वीडियो व्याख्यान पाठ्यक्रम — इंजीनियरिंग, विज्ञान, मानविकी और प्रबंधन में। देखना मुफ़्त है, परीक्षा देने के बाद पेड प्रमाणपत्र भी मिलता है।',
+        hi: 'IIT और IISc के वीडियो व्याख्यान पाठ्यक्रम, इंजीनियरिंग, विज्ञान, मानविकी और प्रबंधन में। देखना मुफ़्त है, परीक्षा देने के बाद पेड प्रमाणपत्र भी मिलता है।',
       },
       eligibility: {
         en: 'Open to students, professionals and the general public.',
-        hi: 'छात्र, पेशेवर और आम जनता — सबके लिए खुला है।',
+        hi: 'छात्र, पेशेवर और आम जनता, सबके लिए खुला है।',
       },
       apply: {
         en: 'Browse the NPTEL catalogue, watch lectures on YouTube or the NPTEL site, and register for the exam if you want a certificate.',
@@ -293,7 +293,7 @@
       title: { en: 'Khan Academy', hi: 'खान अकादमी' },
       desc: {
         en: 'World-renowned free education from arithmetic through college-level subjects. Most content has Hindi versions, and there are NCERT-aligned courses for Class 1 through 12.',
-        hi: 'अंकगणित से लेकर कॉलेज-स्तर के विषयों तक — मुफ़्त, विश्व-प्रसिद्ध शिक्षा। अधिकांश सामग्री हिंदी में भी है, और कक्षा 1 से 12 के लिए NCERT के अनुरूप पाठ्यक्रम मौजूद हैं।',
+        hi: 'अंकगणित से लेकर कॉलेज-स्तर के विषयों तक, मुफ़्त, विश्व-प्रसिद्ध शिक्षा। अधिकांश सामग्री हिंदी में भी है, और कक्षा 1 से 12 के लिए NCERT के अनुरूप पाठ्यक्रम मौजूद हैं।',
       },
       eligibility: {
         en: 'Free for everyone. No sign-up needed to watch lessons.',
@@ -343,8 +343,8 @@
       tag: { en: 'Experts · Premium', hi: 'विशेषज्ञ · प्रीमियम' },
       title: { en: 'MasterClass', hi: 'मास्टरक्लास' },
       desc: {
-        en: 'Subscription-based video lessons taught by people at the top of their field — chefs, writers, scientists, athletes, business leaders. Useful for a peek into how someone became great at what they do.',
-        hi: 'सब्सक्रिप्शन-आधारित वीडियो पाठ, जिनमें अपने क्षेत्र के शीर्ष लोग पढ़ाते हैं — शेफ़, लेखक, वैज्ञानिक, खिलाड़ी, व्यापार-नेता। यह देखने का अच्छा ज़रिया है कि किसी ने अपने काम में महारत कैसे हासिल की।',
+        en: 'Subscription-based video lessons taught by people at the top of their field, chefs, writers, scientists, athletes, business leaders. Useful for a peek into how someone became great at what they do.',
+        hi: 'सब्सक्रिप्शन-आधारित वीडियो पाठ, जिनमें अपने क्षेत्र के शीर्ष लोग पढ़ाते हैं, शेफ़, लेखक, वैज्ञानिक, खिलाड़ी, व्यापार-नेता। यह देखने का अच्छा ज़रिया है कि किसी ने अपने काम में महारत कैसे हासिल की।',
       },
       eligibility: {
         en: 'Requires a paid subscription. Family and group plans available.',
@@ -361,7 +361,7 @@
       title: { en: 'Duolingo', hi: 'डुओलिंगो' },
       desc: {
         en: 'A free language learning app with short daily lessons. Strong for getting started in English, Spanish, French, German, Japanese and many more, with a free Hindi-to-English course.',
-        hi: 'छोटे रोज़ाना पाठों वाली मुफ़्त भाषा-शिक्षण ऐप। अंग्रेज़ी, स्पैनिश, फ़्रेंच, जर्मन, जापानी आदि सीखने के लिए अच्छी है — हिंदी से अंग्रेज़ी का मुफ़्त कोर्स भी है।',
+        hi: 'छोटे रोज़ाना पाठों वाली मुफ़्त भाषा-शिक्षण ऐप। अंग्रेज़ी, स्पैनिश, फ़्रेंच, जर्मन, जापानी आदि सीखने के लिए अच्छी है, हिंदी से अंग्रेज़ी का मुफ़्त कोर्स भी है।',
       },
       eligibility: {
         en: 'Free with ads. Optional paid plan removes ads and unlocks extras.',
@@ -447,7 +447,7 @@
       tag: { en: 'Freelance · Services', hi: 'फ़्रीलांस · सेवाएँ' },
       title: { en: 'Fiverr', hi: 'फ़ाइवर' },
       desc: {
-        en: 'A freelance marketplace built around "gigs" — packaged services you sell at a fixed price. Buyers come to you instead of you bidding for jobs.',
+        en: 'A freelance marketplace built around "gigs", packaged services you sell at a fixed price. Buyers come to you instead of you bidding for jobs.',
         hi: 'एक फ़्रीलांस मंच, जो "गिग" यानी तय कीमत पर बिकने वाली पैकेज की हुई सेवाओं पर आधारित है। यहाँ ग्राहक आपके पास आते हैं, आपको नौकरी के लिए बोली नहीं लगानी पड़ती।',
       },
       eligibility: {
@@ -464,8 +464,8 @@
       tag: { en: 'Jobs · Blue + Grey collar', hi: 'नौकरियाँ · श्रमिक' },
       title: { en: 'WorkIndia', hi: 'वर्कइंडिया' },
       desc: {
-        en: 'An Indian jobs app that focuses on blue-collar and grey-collar roles — drivers, delivery, retail, sales, customer support, and back-office work in over 200 Indian cities.',
-        hi: 'एक भारतीय जॉब ऐप, जो श्रमिक और तकनीकी नौकरियों पर केंद्रित है — ड्राइवर, डिलीवरी, रिटेल, सेल्स, कस्टमर सपोर्ट और बैक-ऑफ़िस काम — 200 से अधिक भारतीय शहरों में।',
+        en: 'An Indian jobs app that focuses on blue-collar and grey-collar roles, drivers, delivery, retail, sales, customer support, and back-office work in over 200 Indian cities.',
+        hi: 'एक भारतीय जॉब ऐप, जो श्रमिक और तकनीकी नौकरियों पर केंद्रित है, ड्राइवर, डिलीवरी, रिटेल, सेल्स, कस्टमर सपोर्ट और बैक-ऑफ़िस काम, 200 से अधिक भारतीय शहरों में।',
       },
       eligibility: {
         en: 'Open to all Indian job seekers. Free to sign up.',
@@ -499,7 +499,7 @@
       title: { en: 'Truelancer', hi: 'ट्रूलांसर' },
       desc: {
         en: 'An India-grown freelance platform with both Indian and international clients. Strong in IT, content, design and admin work, and pays out in INR.',
-        hi: 'भारत में बना फ़्रीलांस मंच, जिसमें भारतीय और अंतरराष्ट्रीय दोनों तरह के ग्राहक हैं। IT, कंटेंट, डिज़ाइन और एडमिन काम में मज़बूत — भुगतान INR में मिलते हैं।',
+        hi: 'भारत में बना फ़्रीलांस मंच, जिसमें भारतीय और अंतरराष्ट्रीय दोनों तरह के ग्राहक हैं। IT, कंटेंट, डिज़ाइन और एडमिन काम में मज़बूत, भुगतान INR में मिलते हैं।',
       },
       eligibility: {
         en: 'Open to Indian freelancers 18 or older.',
@@ -549,14 +549,14 @@
     },
     pmkvy: {
       tag: { en: 'PMKVY · Vocational', hi: 'PMKVY · व्यावसायिक' },
-      title: { en: 'PMKVY — PM Kaushal Vikas Yojana', hi: 'प्रधानमंत्री कौशल विकास योजना' },
+      title: { en: 'PMKVY, PM Kaushal Vikas Yojana', hi: 'प्रधानमंत्री कौशल विकास योजना' },
       desc: {
         en: 'A short-term skill training scheme with a recognised certificate at the end. The scheme also gives placement support, and most courses are free for the student.',
         hi: 'अल्पकालिक कौशल प्रशिक्षण योजना, जिसके अंत में मान्यता प्राप्त प्रमाणपत्र मिलता है। साथ ही रोज़गार सहायता भी, और अधिकांश पाठ्यक्रम छात्र के लिए मुफ़्त होते हैं।',
       },
       eligibility: {
         en: 'Indian citizens between 15 and 45, school dropouts or unemployed youth typically.',
-        hi: '15 से 45 वर्ष के भारतीय नागरिक — आमतौर पर स्कूल छोड़ चुके या बेरोज़गार युवा।',
+        hi: '15 से 45 वर्ष के भारतीय नागरिक, आमतौर पर स्कूल छोड़ चुके या बेरोज़गार युवा।',
       },
       apply: {
         en: 'Find a PMKVY training centre near you on the Skill India Digital portal and register there.',
@@ -567,7 +567,7 @@
     'ddu-gky': {
       tag: { en: 'Rural · Placement', hi: 'ग्रामीण · नियुक्ति' },
       title: {
-        en: 'DDU-GKY — Deen Dayal Upadhyay Grameen Kaushalya Yojana',
+        en: 'DDU-GKY, Deen Dayal Upadhyay Grameen Kaushalya Yojana',
         hi: 'दीन दयाल उपाध्याय ग्रामीण कौशल्या योजना',
       },
       desc: {
@@ -587,7 +587,7 @@
     naps: {
       tag: { en: 'Apprenticeships', hi: 'शिक्षुता' },
       title: {
-        en: 'NAPS — National Apprenticeship Promotion Scheme',
+        en: 'NAPS, National Apprenticeship Promotion Scheme',
         hi: 'राष्ट्रीय शिक्षुता प्रोत्साहन योजना',
       },
       desc: {
@@ -607,12 +607,12 @@
     strive: {
       tag: { en: 'Quality · Vocational', hi: 'गुणवत्ता · व्यावसायिक' },
       title: {
-        en: 'STRIVE — Skills Strengthening for Industrial Value Enhancement',
-        hi: 'STRIVE — व्यावसायिक प्रशिक्षण गुणवत्ता परियोजना',
+        en: 'STRIVE, Skills Strengthening for Industrial Value Enhancement',
+        hi: 'STRIVE, व्यावसायिक प्रशिक्षण गुणवत्ता परियोजना',
       },
       desc: {
-        en: "A World Bank-supported project of the Ministry of Skill Development that improves how India's ITIs run — better instructors, better equipment, stronger ties with employers.",
-        hi: 'कौशल विकास मंत्रालय की विश्व बैंक-समर्थित परियोजना, जो भारत के ITI को बेहतर बनाती है — बेहतर प्रशिक्षक, बेहतर उपकरण, और रोज़गार-दाताओं के साथ मज़बूत जुड़ाव।',
+        en: "A World Bank-supported project of the Ministry of Skill Development that improves how India's ITIs run, better instructors, better equipment, stronger ties with employers.",
+        hi: 'कौशल विकास मंत्रालय की विश्व बैंक-समर्थित परियोजना, जो भारत के ITI को बेहतर बनाती है, बेहतर प्रशिक्षक, बेहतर उपकरण, और रोज़गार-दाताओं के साथ मज़बूत जुड़ाव।',
       },
       eligibility: {
         en: 'Reaches students through partner ITIs and apprenticeship trades. Not a direct individual application.',
@@ -628,8 +628,8 @@
       tag: { en: 'Startups · Learning', hi: 'स्टार्टअप · सीख' },
       title: { en: 'Startup India Learning Programme', hi: 'स्टार्टअप इंडिया लर्निंग कार्यक्रम' },
       desc: {
-        en: 'A free, structured online course for early-stage founders, built by Startup India and partners. It walks you through the basics of building a startup — idea, market, team, funding and registration.',
-        hi: 'शुरुआती चरण के संस्थापकों के लिए मुफ़्त, संरचित ऑनलाइन कोर्स, जिसे Startup India और साझेदारों ने बनाया है। यह स्टार्टअप बनाने की मूल बातें सिखाता है — आइडिया, बाज़ार, टीम, फ़ंडिंग और पंजीकरण।',
+        en: 'A free, structured online course for early-stage founders, built by Startup India and partners. It walks you through the basics of building a startup, idea, market, team, funding and registration.',
+        hi: 'शुरुआती चरण के संस्थापकों के लिए मुफ़्त, संरचित ऑनलाइन कोर्स, जिसे Startup India और साझेदारों ने बनाया है। यह स्टार्टअप बनाने की मूल बातें सिखाता है, आइडिया, बाज़ार, टीम, फ़ंडिंग और पंजीकरण।',
       },
       eligibility: {
         en: 'Anyone with an idea or an early-stage startup. No prior experience needed.',
@@ -662,7 +662,7 @@
     // Schemes
     'ayushman-bharat': {
       tag: { en: 'Health · Universal', hi: 'स्वास्थ्य · सार्वभौमिक' },
-      title: { en: 'Ayushman Bharat — PM-JAY', hi: 'आयुष्मान भारत — पीएम-जय' },
+      title: { en: 'Ayushman Bharat, PM-JAY', hi: 'आयुष्मान भारत, पीएम-जय' },
       desc: {
         en: 'A health insurance scheme that gives eligible families up to ₹5 lakh of free treatment a year at empanelled hospitals. Covers most surgeries, hospital stays and serious illnesses.',
         hi: 'एक स्वास्थ्य बीमा योजना, जो पात्र परिवारों को हर साल सूचीबद्ध अस्पतालों में ₹5 लाख तक का मुफ़्त इलाज देती है। इसमें अधिकांश सर्जरी, अस्पताल में रहने और गंभीर बीमारियाँ शामिल हैं।',
@@ -679,7 +679,7 @@
     },
     pmjdy: {
       tag: { en: 'Banking · Inclusion', hi: 'बैंकिंग · समावेशन' },
-      title: { en: 'PMJDY — PM Jan Dhan Yojana', hi: 'पीएम जन धन योजना' },
+      title: { en: 'PMJDY, PM Jan Dhan Yojana', hi: 'पीएम जन धन योजना' },
       desc: {
         en: 'A zero-balance bank account scheme for every Indian, with a free RuPay debit card and ₹2 lakh of accidental insurance built in. It is the door through which most other government benefits now arrive.',
         hi: 'हर भारतीय के लिए शून्य-बैलेंस बैंक खाता योजना, जिसमें मुफ़्त RuPay डेबिट कार्ड और ₹2 लाख का दुर्घटना बीमा भी शामिल है। आजकल अधिकांश सरकारी लाभ इसी खाते से आते हैं।',
@@ -714,7 +714,7 @@
     pmjjby: {
       tag: { en: 'Insurance · Life', hi: 'बीमा · जीवन' },
       title: {
-        en: 'PMJJBY — PM Jeevan Jyoti Bima Yojana',
+        en: 'PMJJBY, PM Jeevan Jyoti Bima Yojana',
         hi: 'प्रधानमंत्री जीवन ज्योति बीमा योजना',
       },
       desc: {
@@ -733,7 +733,7 @@
     },
     pmsby: {
       tag: { en: 'Insurance · Accident', hi: 'बीमा · दुर्घटना' },
-      title: { en: 'PMSBY — PM Suraksha Bima Yojana', hi: 'प्रधानमंत्री सुरक्षा बीमा योजना' },
+      title: { en: 'PMSBY, PM Suraksha Bima Yojana', hi: 'प्रधानमंत्री सुरक्षा बीमा योजना' },
       desc: {
         en: 'An accidental death and disability cover of ₹2 lakh for a premium of just ₹20 a year. Probably the cheapest formal insurance in the country.',
         hi: 'दुर्घटना से मृत्यु या विकलांगता पर ₹2 लाख का कवच, और प्रीमियम है मात्र ₹20 प्रति वर्ष। शायद देश का सबसे सस्ता औपचारिक बीमा।',
@@ -743,14 +743,14 @@
         hi: '18 से 70 वर्ष के भारतीय नागरिक, जिनके पास बैंक खाता हो।',
       },
       apply: {
-        en: 'Enrol through your bank — most banks let you do this from net banking or the mobile app in a minute.',
-        hi: 'अपने बैंक के माध्यम से नामांकन कराएँ — अधिकांश बैंक नेट बैंकिंग या मोबाइल ऐप से यह एक मिनट में करवा देते हैं।',
+        en: 'Enrol through your bank, most banks let you do this from net banking or the mobile app in a minute.',
+        hi: 'अपने बैंक के माध्यम से नामांकन कराएँ, अधिकांश बैंक नेट बैंकिंग या मोबाइल ऐप से यह एक मिनट में करवा देते हैं।',
       },
       url: 'https://www.jansuraksha.gov.in/Forms-PMSBY.aspx',
     },
     esic: {
       tag: { en: 'Workers · Social', hi: 'कामगार · सामाजिक' },
-      title: { en: "ESIC — Employees' State Insurance", hi: 'ईएसआईसी — कर्मचारी राज्य बीमा' },
+      title: { en: "ESIC, Employees' State Insurance", hi: 'ईएसआईसी, कर्मचारी राज्य बीमा' },
       desc: {
         en: 'A self-financing social security scheme for organised-sector workers. It covers medical care, sickness benefits, maternity benefits and unemployment cover for the worker and their family.',
         hi: 'संगठित क्षेत्र के कामगारों के लिए स्व-वित्तपोषित सामाजिक सुरक्षा योजना। इसमें कामगार और परिवार के लिए चिकित्सा देखभाल, बीमारी, मातृत्व और बेरोज़गारी लाभ शामिल हैं।',
@@ -787,11 +787,11 @@
       title: { en: 'National AYUSH Mission', hi: 'राष्ट्रीय आयुष मिशन' },
       desc: {
         en: 'A central mission to expand access to Ayurveda, Yoga, Unani, Siddha and Homoeopathy through government clinics, education and research. Also funds AYUSH hospitals at the district level.',
-        hi: 'आयुर्वेद, योग, यूनानी, सिद्ध और होम्योपैथी की पहुँच बढ़ाने वाला केंद्रीय मिशन — सरकारी क्लीनिक, शिक्षा और शोध के माध्यम से। साथ ही ज़िला स्तर पर आयुष अस्पतालों को भी अनुदान देता है।',
+        hi: 'आयुर्वेद, योग, यूनानी, सिद्ध और होम्योपैथी की पहुँच बढ़ाने वाला केंद्रीय मिशन, सरकारी क्लीनिक, शिक्षा और शोध के माध्यम से। साथ ही ज़िला स्तर पर आयुष अस्पतालों को भी अनुदान देता है।',
       },
       eligibility: {
-        en: 'Open to all citizens — services are delivered through state governments.',
-        hi: 'सभी नागरिकों के लिए खुला — सेवाएँ राज्य सरकारों के माध्यम से दी जाती हैं।',
+        en: 'Open to all citizens, services are delivered through state governments.',
+        hi: 'सभी नागरिकों के लिए खुला, सेवाएँ राज्य सरकारों के माध्यम से दी जाती हैं।',
       },
       apply: {
         en: 'Look up your nearest AYUSH hospital, dispensary or wellness centre on the Ministry of AYUSH site.',
@@ -802,12 +802,12 @@
     kgbv: {
       tag: { en: 'Girls · Residential', hi: 'बेटियाँ · आवासीय' },
       title: {
-        en: 'KGBV — Kasturba Gandhi Balika Vidyalaya',
+        en: 'KGBV, Kasturba Gandhi Balika Vidyalaya',
         hi: 'कस्तूरबा गांधी बालिका विद्यालय',
       },
       desc: {
         en: 'Free residential schools for girls from SC, ST, OBC and minority communities, and for girls below the poverty line. The schools cover Class 6 through 12 and provide stay, meals, uniform and books at no cost.',
-        hi: 'SC, ST, OBC और अल्पसंख्यक समुदायों, साथ ही ग़रीबी रेखा से नीचे की बेटियों के लिए मुफ़्त आवासीय विद्यालय। ये स्कूल कक्षा 6 से 12 तक चलते हैं — रहना, खाना, यूनिफ़ॉर्म और किताबें सब मुफ़्त।',
+        hi: 'SC, ST, OBC और अल्पसंख्यक समुदायों, साथ ही ग़रीबी रेखा से नीचे की बेटियों के लिए मुफ़्त आवासीय विद्यालय। ये स्कूल कक्षा 6 से 12 तक चलते हैं, रहना, खाना, यूनिफ़ॉर्म और किताबें सब मुफ़्त।',
       },
       eligibility: {
         en: 'Girls from SC/ST/OBC/minority communities or BPL families, in educationally backward blocks.',
